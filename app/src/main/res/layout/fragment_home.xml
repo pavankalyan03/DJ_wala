@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout 
+                android:layout_width="match_parent" 
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:text="Recents >"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"/>
+
+
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp">
+
+                <LinearLayout
+                        android:id="@+id/albumContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="center_vertical"
+                            tools:src="@tools:sample/avatars"
+                            android:id="@+id/imageButton"/>
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="center_vertical"
+                            tools:src="@tools:sample/avatars"
+                            android:id="@+id/imageButton2"/>
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="center_vertical"
+                            tools:src="@tools:sample/avatars"
+                            android:id="@+id/imageButton3"/>
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="center_vertical"
+                            tools:src="@tools:sample/avatars"
+                            android:id="@+id/imageButton4"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                    android:text="Artists >"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/textView2"/>
+
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="200dp">
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            tools:src="@tools:sample/backgrounds/scenic"
+                            android:id="@+id/imageButton5"/>
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            tools:src="@tools:sample/backgrounds/scenic"
+                            android:id="@+id/imageButton6"/>
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            tools:src="@tools:sample/backgrounds/scenic"
+                            android:id="@+id/imageButton7"/>
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            tools:src="@tools:sample/backgrounds/scenic"
+                            android:id="@+id/imageButton8"/>
+
+                    <ImageButton
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            tools:src="@tools:sample/backgrounds/scenic"
+                            android:id="@+id/imageButton9"/>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

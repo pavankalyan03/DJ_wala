@@ -4,7 +4,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@color/black"
         tools:context=".ui.home.HomeFragment">
 
     <ScrollView
@@ -19,7 +19,7 @@
             <TextView
                     android:text="Recents"
                     android:textSize="20sp"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView"/>
@@ -41,7 +41,7 @@
                             android:layout_height="100dp"
                             android:layout_marginLeft="20dp"
                             android:layout_gravity="center_vertical"
-                            tools:src="@tools:sample/avatars"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton"/>
 
                     <ImageButton
@@ -49,7 +49,7 @@
                             android:layout_height="100dp"
                             android:layout_marginLeft="20dp"
                             android:layout_gravity="center_vertical"
-                            tools:src="@tools:sample/avatars"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton2"/>
 
                     <ImageButton
@@ -57,7 +57,7 @@
                             android:layout_height="100dp"
                             android:layout_marginLeft="20dp"
                             android:layout_gravity="center_vertical"
-                            tools:src="@tools:sample/avatars"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton3"/>
 
                     <ImageButton
@@ -65,8 +65,16 @@
                             android:layout_height="100dp"
                             android:layout_marginLeft="20dp"
                             android:layout_gravity="center_vertical"
-                            tools:src="@tools:sample/avatars"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton4"/>
+
+                    <ImageButton
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        tools:src="@drawable/starboy"
+                        android:id="@+id/imageButton15"/>
 
                 </LinearLayout>
 
@@ -74,10 +82,10 @@
 
 
             <TextView
-                    android:text="Artists >"
+                    android:text="Artists"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp"
                     android:layout_marginTop="20dp"
                     android:id="@+id/textView2"/>
@@ -96,7 +104,7 @@
                             android:layout_height="100dp"
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
-                            tools:src="@tools:sample/backgrounds/scenic"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton5"/>
 
                     <ImageButton
@@ -104,7 +112,7 @@
                             android:layout_height="100dp"
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
-                            tools:src="@tools:sample/backgrounds/scenic"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton6"/>
 
                     <ImageButton
@@ -112,7 +120,7 @@
                             android:layout_height="100dp"
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
-                            tools:src="@tools:sample/backgrounds/scenic"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton7"/>
 
                     <ImageButton
@@ -120,7 +128,7 @@
                             android:layout_height="100dp"
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
-                            tools:src="@tools:sample/backgrounds/scenic"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton8"/>
 
                     <ImageButton
@@ -128,7 +136,7 @@
                             android:layout_height="100dp"
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
-                            tools:src="@tools:sample/backgrounds/scenic"
+                            tools:src="@drawable/starboy"
                             android:id="@+id/imageButton9"/>
 
 
@@ -177,9 +185,23 @@
 
 
                 <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" tools:src="@tools:sample/avatars"
-                        android:id="@+id/imageButton11" android:layout_weight="1"/>
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    tools:src="@drawable/starboy"
+                    android:id="@+id/imageButton14"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <TextView
+                    android:text="Star Boy"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:id="@+id/textView4"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -190,6 +212,25 @@
                     android:layout_marginTop="15dp"
                     android:background="@drawable/roundnround"
                     android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    tools:src="@drawable/starboy"
+                    android:id="@+id/imageButton11"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <TextView
+                    android:text="Star Boy"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:id="@+id/textView5"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -200,6 +241,24 @@
                     android:layout_marginTop="15dp"
                     android:background="@drawable/roundnround"
                     android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    tools:src="@drawable/starboy"
+                    android:id="@+id/imageButton12"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <TextView
+                    android:text="Star Boy"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:id="@+id/textView6"/>
             </LinearLayout>
 
             <LinearLayout
@@ -210,6 +269,24 @@
                     android:layout_marginTop="15dp"
                     android:background="@drawable/roundnround"
                     android:layout_height="100dp">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    tools:src="@drawable/starboy"
+                    android:id="@+id/imageButton13"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <TextView
+                    android:text="Star Boy"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:id="@+id/textView7"/>
             </LinearLayout>
 
 
